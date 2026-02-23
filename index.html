@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emerado Museum | Community Heritage in North Dakota</title>
+
+  <meta name="description" content="Emerado Museum preserves and shares the history of Emerado, North Dakota through exhibits, archival collections, and community engagement." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            museumBlue: '#1e3a8a',
+            museumStone: '#475569',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Merriweather', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans bg-gray-50 text-slate-700">
+
+<!-- NAV -->
+<nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between h-16 items-center">
+      <span class="font-serif font-bold text-xl text-museumBlue">
+        EMERADO MUSEUM
+      </span>
+
+      <div class="hidden md:flex items-center space-x-8 text-sm">
+        <a href="#about" class="hover:text-museumBlue">About</a>
+        <a href="#collections" class="hover:text-museumBlue">Collections</a>
+        <a href="#visit" class="hover:text-museumBlue">Visit</a>
+        <a href="#contact" class="hover:text-museumBlue">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="bg-slate-900 text-center">
+  <div class="max-w-4xl mx-auto px-4 py-24">
+    <h1 class="font-serif text-4xl md:text-5xl text-white tracking-tight">
+      Preserving Local History
+    </h1>
+    <p class="mt-6 text-lg text-slate-300">
+      Emerado Museum is dedicated to safeguarding the heritage,
+      stories, and artifacts of Emerado, North Dakota and the surrounding community.
+    </p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="font-serif text-3xl text-museumBlue">About the Museum</h2>
+    <p class="mt-6 text-lg text-museumStone">
+      Emerado Museum serves as a steward of local history in Emerado, North Dakota.
+      Through curated exhibits, archival materials, and preserved artifacts,
+      the museum reflects the agricultural, cultural, and civic heritage of the region.
+    </p>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections" class="py-20 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="font-serif text-3xl text-museumBlue text-center">
+      Collections & Exhibits
+    </h2>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-lg border">
+        <h3 class="font-semibold text-museumBlue mb-2">Historical Artifacts</h3>
+        <p class="text-sm text-slate-600">
+          Tools, documents, and objects representing the early settlement
+          and development of Emerado and Grand Forks County.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg border">
+        <h3 class="font-semibold text-museumBlue mb-2">Archival Records</h3>
+        <p class="text-sm text-slate-600">
+          Photographs, newspapers, and written records preserving community memory.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg border">
+        <h3 class="font-semibold text-museumBlue mb-2">Community Exhibits</h3>
+        <p class="text-sm text-slate-600">
+          Displays highlighting local families, schools, agriculture, and civic life.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section id="visit" class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="font-serif text-3xl text-museumBlue">Visit Us</h2>
+    <p class="mt-6 text-lg text-museumStone">
+      1086 22nd St NE<br>
+      Emerado, ND 58228<br>
+      United States
+    </p>
+  </div>
+</section>
+
+<!-- GOVERNANCE -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="font-serif text-3xl text-museumBlue">Leadership</h2>
+    <p class="mt-6 text-lg text-museumStone">
+      Principal Officer:<br>
+      <strong>Keith Drees</strong><br>
+      1086 22st NE<br>
+      Emerado, ND 58228<br>
+      United States
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="font-serif text-3xl text-museumBlue">Contact</h2>
+
+    <p class="mt-6 text-lg text-museumStone">
+      For inquiries regarding visits, historical records,
+      or community involvement:
+    </p>
+
+    <p class="mt-6 text-lg font-semibold">
+      📧 <a href="mailto:info@emeradomuseum.org"
+           class="text-museumBlue hover:underline">
+        info@emeradomuseum.org
+      </a>
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-slate-900 text-slate-300 py-12">
+  <div class="max-w-6xl mx-auto text-center px-4">
+    <p class="font-serif text-lg text-white">
+      Emerado Museum
+    </p>
+    <p class="mt-2 text-sm">
+      1086 22nd St NE · Emerado, ND 58228
+    </p>
+    <p class="mt-2 text-sm">
+      📧 info@emeradomuseum.org
+    </p>
+    <p class="mt-2 text-xs">
+      © 2026 Emerado Museum. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
